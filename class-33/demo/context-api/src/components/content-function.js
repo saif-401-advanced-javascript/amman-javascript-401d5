@@ -5,6 +5,7 @@ export default function Content(props) {
   // when we have 2 contexts we can use 2 useContext
   const siteContext = useContext(SettingsContext);
   const themeContext = useContext(ThemeContext);
+  console.log(siteContext);
   return (
     <div>
       <h1>function Component</h1>
